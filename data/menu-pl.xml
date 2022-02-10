@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<menu>
+  <item>
+    <name>Strona Glowna</name>
+    <link>https://w.prz.edu.pl/</link>
+  </item>
+  <item>
+    <name>Wypozyc ladowarke</name>
+    <link>/charge.html</link>
+  </item>
+  <item>
+    <name>Ladowarki</name>
+    <link>https://w.prz.edu.pl/kandydaci</link>
+  </item>
+  <item>
+    <name>Rejestracja</name>
+    <link>https://w.prz.edu.pl/studenci_menu</link>
+  </item>
+  <item>
+    <name>O stronie</name>
+    <link>https://w.prz.edu.pl/doktoranci-prz</link>
+  </item>
+  <item>
+    <name>Przedmioty</name>
+    <link>#</link>
+    <submenu>
+      <subitem>
+        <name>Technologie WEB i JAVA</name>
+        <link>/twij.html</link>
+      </subitem>
+      <subitem>
+        <name>Technologie sieci WEB</name>
+        <link>/tsw.html</link>
+      </subitem>
+      <subitem>
+        <name>Sieci komputerowe</name>
+        <link>/charge.html</link>
+      </subitem>
+    </submenu>
+  </item>
+  <item>
+    <name>SVG Zadanie</name>
+    <link>/svg.xml</link>
+  </item>
+  <language>Polski</language>
+  <languageShort>pl</languageShort>
+</menu>

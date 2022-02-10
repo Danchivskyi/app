@@ -1,0 +1,266 @@
+html {
+  font-size: 62.5%;
+}
+
+/*Dla czalej częsci(ciała)*/
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5em;
+  color: white;
+}
+
+/*Dla nagłówka (Siec Ladowarek "Volt")*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*background: url('../images/kkk-image.png');*/
+  
+  
+  color: yellow;
+  background-color: teal;
+  background: linear-gradient(45deg, #020024 0%, #097958 35%, #00d4ff 100%);
+  
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Dla nagłówka (Siec Ladowarek "Volt")*/
+header p {
+  font-size: 1.4em;
+  padding: 5rem 0;
+}
+
+/*Dla części głównej ekranu*/
+main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+/*Dla lewego opaska - MENUS*/
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #515151;
+  padding-right: 5%;
+  margin-right: 5px;
+  font-weight: 300;
+}
+
+/*Dla lewego opaska - MENUS*/
+nav b {
+  margin-bottom: 1.6rem;
+}
+
+/*Dla lewego opaska - MENUS*/
+nav * {
+  display: block;
+  margin-bottom: 1.4rem;
+}
+
+/*Dla section*/
+section {
+  color: black;
+  padding: 1.5rem;
+  font-size: .7em;
+}
+
+/*Dla tabeli cennik*/
+table {
+  background-color: #00FFFF;
+  font-size:15px;
+}
+
+/*Dla tabeli cennik*/
+table caption {
+  font-size: 1.5em;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+/*Tabela Cennik - Opasek z nazwami*/
+thead {
+  background-color: darkcyan;
+}
+
+/*Dla linijek tabeli Cennik*/
+th, td{
+  padding: 5px;
+}
+
+/*Dla danych tabeli*/
+tbody {
+  color: #2d2d2d;
+}
+
+/*Animacje tabeli Cennik*/
+tbody tr:nth-child(even) {
+  background-color: #666666;
+  color: white;
+}
+
+/*Animacje tabeli Cennik*/
+tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+/*Animacje tabeli Cennik*/
+tbody td:nth-child(even) {
+  font-weight: bold;
+}
+
+/*Animacje tabeli Cennik*/
+tbody tr:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+/*Opasek dolny*/
+footer {
+  text-align: center;
+  color: black;
+  font-size: 0.8em;
+  font-weight: bold;
+  background-color: darkslategrey;
+}
+
+/*Dla pol lewego opaska MENU*/
+ul {
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/*Dla pol lewego opaska MENU*/
+li {
+  list-style: none;
+}
+
+/*Dla pol lewego opaska MENU*/
+ul > li {
+  margin-left: 1rem;
+}
+
+/*Dla nazwy Sieć Ladowarek*/
+p {
+  margin: 0;
+}
+
+/*Dla nazwy Strona Glowna, ktora jest w MENU*/
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*Dla media*/
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+/*Dla media*/
+@media print {
+  body > *, main > * {
+    display: none;
+  }
+
+  body, main, section { /*Dla media*/
+    display: block;
+  }
+
+  section * { /*Dla media*/
+    color: black;
+    background-color: white;
+  }
+}
+}
+
+#stopka
+{
+	font-size: 16px;
+}
+
+aside
+{
+	font-size:12px;
+}
+
+
+#figure	/*Zdjecie, można zmieniać rozmiar itd*/
+{		
+	width:200%;
+}
+
+#container	/*Dla całej strony*/
+{
+    width: 10000px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: #CCCCFF;
+}
+
+figure	/*Zdjecie, można zmieniać rozmiar itd*/
+{		
+	width:100%;
+}
+	
+figcaption	/*Napis pod zdjęciem*/
+{ 
+	float:bottom;
+	font-size:20px;	
+}
+	
+#coments	/*Cała część komentarzów*/
+{ 
+	font-size:15px;
+}
+
+#advertisement	/*Cała część reklamy*/
+{ 
+	float:center;
+	font-size:15px;
+}
+
+#contact	/*Cała część kontaktowa*/
+{
+	
+}
+
+h2
+{
+	font-size:20px;
+}
+
+h1
+{
+	font-size:30px;
+}
+
+p
+{
+	font-size:15px;
+}
+	
+	
+#name /*Formularz kontaktowy - Imie i nazwisko*/
+{
+    background-color: lightgray;
+    min-height: 20px;
+}
+
+#przycisk {
+ color: #ffffff;
+ background-color: #337ab7;
+ padding: 5px;
+ margin-top: 10px;
+ margin-left: 40%;
+}
+

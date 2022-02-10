@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="koi8-u"?>
+<menu>
+  <item>
+    <name>Головна Сторінка</name>
+    <link>https://w.prz.edu.pl/</link>
+  </item>
+  <item>
+    <name>Винайняти</name>
+    <link>https://w.prz.edu.pl/uczelnia</link>
+  </item>
+  <item>
+    <name>Зарядні</name>
+    <link>https://w.prz.edu.pl/kandydaci</link>
+  </item>
+  <item>
+    <name>Реєстрація</name>
+    <link>https://w.prz.edu.pl/studenci_menu</link>
+  </item>
+  <item>
+    <name>Про сторінку</name>
+    <link>https://w.prz.edu.pl/doktoranci-prz</link>
+  </item>
+  
+  <item>
+    <name>SVG Завдання</name>
+    <link>/svg.xml</link>
+  </item>
+  <language>Українська</language>
+  <languageShort>ua</languageShort>
+</menu>

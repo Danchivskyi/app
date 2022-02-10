@@ -1,0 +1,104 @@
+html {
+  font-size: 62.5%;
+}
+
+/*Dla czalej częsci(ciała)*/
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5em;
+  color: white;
+}
+
+/*Dla nagłówka (Siec Ladowarek "Volt")*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: yellow;
+  background-color: teal;
+  background: linear-gradient(45deg, #020024 0%, #097958 35%, #00d4ff 100%);
+  
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Dla nagłówka (Siec Ladowarek "Volt")*/
+header p {
+  font-size: 1.4em;
+  padding: 5rem 0;
+}
+
+/*Dla części głównej ekranu*/
+main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+/*Dla lewego opaska - MENUS*/
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #515151;
+  padding-right: 5%;
+  margin-right: 5px;
+  font-weight: 300;
+}
+
+
+
+/*Dla lewego opaska - MENUS*/
+nav * {
+  display: block;
+  margin-bottom: 1.4rem;
+}
+
+/*Dla section*/
+section {
+  color: black;
+  padding: 1.5rem;
+  font-size: .7em;
+}
+
+/*Opasek dolny*/
+footer {
+  text-align: center;
+  color: black;
+  font-size: 0.8em;
+  font-weight: bold;
+  background-color: darkslategrey;
+}
+
+/*Dla nazwy Sieć Ladowarek*/
+p {
+  margin: 0;
+}
+
+
+
+#stopka
+{
+	font-size: 16px;
+}
+
+#container	/*Dla całej strony*/
+{
+    width: 10000px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: #CCCCFF;
+}
+
+
+#ad		/*Opasek prawy z ciekawostkami*/
+{
+    float: left;
+}

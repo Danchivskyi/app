@@ -1,0 +1,17 @@
+.strona {
+	display: none;
+	width: 100%;
+	min-height: 100%;
+}
+
+.aktywna {
+	display: block;
+}
+
+h1 {
+	padding: 0px 0px 0px 35px;
+}
+
+ul {
+	list-style-type: none;
+}

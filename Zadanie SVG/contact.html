@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <title>NewSoft</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <header>
+    <b>NewSoft</b>
+    <div>
+      <img src="images/logo.svg" />
+      <img src="images/logo-2.svg" />
+      <img src="images/logo-3.svg" />
+    </div>
+  </header>
+  <main>
+    <nav>
+      <b>MENU</b>
+      <ul>
+        <li><a href="index.html">NewSoft</a></li>
+        <li><a href="products.html">Produkty</a></li>
+        <li><a href="management.html">Zarząd</a></li>
+        <li><a href="contact.html">Kontant</a></li>
+      </ul>
+    </nav>
+    <section style="flex-grow: 1; font-size: 0.8em">
+      <b>Kontakt</b>
+      <small><b>Adres</b></small>
+      <span>
+        <p>ul. Akademicka 69</p>
+        <p>38-015 Rzeszów</p>
+        <p>Poland</p>
+      </span>
+      <br />
+      <span>
+        <p>Telefon: +48 65 45 34 453</p>
+        <p>Email: contact@newsoft.pl</p>
+      </span>
+      <br />
+      <a href="https://goo.gl/maps/hh5o4yDn3fJhseNf8">Pokaż na mapie</a>
+      <br />
+
+      <small><b>Formularz kontaktowy</b></small>
+
+      <form method="post" action="#">
+        <table>
+          <tr>
+            <td>Imię: </td><td><input type="text" name="name" placeholder="Adam"></td>
+          </tr>
+          <tr>
+            <td>Nazwisko: </td><td><input type="text" name="surname" placeholder="Kowal"></td>
+          </tr>
+          <tr>
+            <td>Data urodzenia: </td><td><input type="date" name="dob"></td>
+          </tr>
+          <tr>
+            <td>Język: </td>
+            <td style="font-size: 0.7em">
+              <input type="checkbox" name="lang0" value="0">
+              <label for="lang0" style="margin-right: 5px">Polski</label>
+              <input type="checkbox" name="lang1" value="1">
+              <label for="lang1" style="margin-right: 5px">Angielski</label>
+              <input type="checkbox" name="lang2" value="2">
+              <label for="lang2" style="margin-right: 5px">Niemiecki</label>
+              <input type="checkbox" name="lang3" value="3">
+              <label for="lang3" style="margin-right: 5px">Francuski</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Numer telefonu: </td>
+            <td><input type="tel" name="phone" placeholder="123-345-345"></td>
+          </tr>
+          <tr>
+            <td>E-mail: </td>
+            <td><input type="email" name="email" placeholder="adamkowal@gmail.com"></td>
+          </tr>
+          <tr>
+            <td>Wiadomość: </td>
+            <td><textarea cols="50" rows="8">Wiadomość do Nas</textarea>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Wyślij"></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+    <aside>
+      <small><b>Download</b></small>
+      <a href="pdf/kek.pdf" target="_blank">Plik do pobrania 1</a>
+      <a href="pdf/kek.pdf" target="_blank">Plik do pobrania 2</a>
+      <a href="pdf/kek.pdf" target="_blank">Plik do pobrania 3</a>
+      <a href="pdf/kek.pdf" target="_blank">Plik do pobrania 4</a>
+    </aside>
+  </main>
+  <footer>
+    <small>&copy; Copyright 2021, Oleh Danchivskyi</small>
+  </footer>
+</body>
+</html>

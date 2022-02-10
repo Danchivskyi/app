@@ -1,0 +1,23 @@
+{
+  "name": "Progressive WEB Application",
+  "short_name": "PWA",
+  "description": "Przykład aplikacji PWA",
+  "theme_color": "#24292e",
+  "background_color": "#24292e",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "pwa.php",
+  "splash_pages": null,
+  "icons": [
+  {
+  "src": "favicon.jpg",
+  "sizes": "192x192",
+  "type": "image/png"
+  },
+  {
+  "src": "favicon.jpg",
+  "sizes": "512x512",
+  "type": "image/png"
+  }
+  ]
+ }

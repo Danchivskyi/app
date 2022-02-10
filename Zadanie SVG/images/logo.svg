@@ -1,0 +1,7 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <ellipse stroke="#000" ry="95.99995" rx="95.99995" id="svg_1" cy="100.45308" cx="98.49995" stroke-width="1.5" fill="#fff"/>
+  <path stroke="#000" id="svg_4" d="m132.4718,9.85048c114.66479,39.3316 -131.18906,76.33846 -131.4718,76.08223c0.28274,0.25623 16.807,-115.41383 131.4718,-76.08223z" stroke-opacity="null" stroke-width="1.5" fill="#259696"/>
+  <text stroke="#000" transform="matrix(0.5861197710037231,0,0,0.5861197710037231,26.695274770259857,28.27966002188623) " font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="170" id="svg_3" y="181.01751" x="26.58584" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">NS</text>
+  <rect id="svg_5" height="12.22223" width="112.2223" y="148.33323" x="43.88865" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#517fff"/>
+  <line transform="rotate(-2.944664239883423 114.67385864257876,150.49249267578122) " stroke-linecap="null" stroke-linejoin="null" id="svg_7" y2="127.66641" x2="189.67387" y1="173.31859" x1="39.67383" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+</svg>

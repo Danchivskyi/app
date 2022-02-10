@@ -1,0 +1,53 @@
+{
+  "taryfy": [
+    {
+      "value1": "Wallbox Pulsar",
+      "value2": "3-fazowe",
+      "value3": "5 kg",
+	  "value4": "166x163x82mm",
+	  "value5": "22 kW",
+	  "value6": "2 lata",
+	  "value7": "2980"  
+    },
+	
+	{
+      "value1": "SMA EV",
+      "value2": "3-fazowe",
+      "value3": "8 kg",
+	  "value4": "460x357x122mm",
+	  "value5": "22 kW",
+	  "value6": "2 lata",
+	  "value7": "7080"
+    },
+	
+	{
+      "value1": "Mennekes Amtron",
+      "value2": "3-fazowe",
+      "value3": "5 kg",
+	  "value4": "475x220x259mm",
+	  "value5": "22 kW",
+	  "value6": "3 lata",
+	  "value7": "7950"
+    },
+	
+	{
+      "value1": "Mennerkes Amtron Compact",
+      "value2": "3-fazowe",
+      "value3": "5 kg",
+	  "value4": "361x207x146mm",
+	  "value5": "11 kW",
+	  "value6": "1 rok",
+	  "value7": "3160"
+    },
+	
+	{
+      "value1": "Ensto One EVH32-HC000",
+      "value2": "1-fazowe",
+      "value3": "5.5 kg",
+	  "value4": "361x202x142mm",
+	  "value5": "7.4 kW",
+	  "value6": "1 rok",
+	  "value7": "2950"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <item>
+    <name>Home Pagy</name>
+    <link>https://w.prz.edu.pl/</link>
+  </item>
+  <item>
+    <name>Borrowing</name>
+    <link>https://w.prz.edu.pl/uczelnia</link>
+  </item>
+  <item>
+    <name>Charges</name>
+    <link>https://w.prz.edu.pl/kandydaci</link>
+  </item>
+  <item>
+    <name>Register</name>
+    <link>https://w.prz.edu.pl/studenci_menu</link>
+  </item>
+  <item>
+    <name>About</name>
+    <link>https://w.prz.edu.pl/doktoranci-prz</link>
+  </item>
+  <item>
+    <name>Classes</name>
+    <link>#</link>
+    <submenu>
+      <subitem>
+        <name>Web and Java Technologies</name>
+        <link>/twij.html</link>
+      </subitem>
+      <subitem>
+        <name>Web Technologies</name>
+        <link>/tsw.html</link>
+      </subitem>
+      <subitem>
+        <name>Computer systems</name>
+        <link>/mikro.html</link>
+      </subitem>
+    </submenu>
+  </item>
+  <item>
+    <name>SVG Task</name>
+    <link>/svg.xml</link>
+  </item>
+  <language>English</language>
+  <languageShort>en</languageShort>
+</menu>
